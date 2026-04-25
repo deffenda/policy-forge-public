@@ -2,7 +2,7 @@
 
 ## Executive View
 
-Policy Forge is security-first compliance automation for regulated cloud environments. It is designed for organizations that need defensible authorization packages, continuous monitoring, and audit-ready evidence without slowing the engineers responsible for reducing risk.
+Policy Forge is security-led, evidence-backed compliance automation for regulated cloud environments. It is designed for organizations that need defensible authorization packages, continuous monitoring, and audit-ready evidence without slowing the engineers responsible for reducing risk.
 
 Most compliance programs fail operationally when evidence, POA&Ms, control status, and assessments live in disconnected tools. Policy Forge aligns those records around the real security work: scanner findings, remediation actions, validation evidence, risk decisions, and authorization artifacts.
 

@@ -16,7 +16,8 @@ private_word="private"
 scan_fixed() {
   local label="$1"
   local pattern="$2"
-  if rg --hidden --glob '!.git/**' --fixed-strings "$pattern" . >/tmp/policy-forge-public-scan.txt; then
+  shift 2
+  if rg --hidden --glob '!.git/**' "$@" --fixed-strings "$pattern" . >/tmp/policy-forge-public-scan.txt; then
     echo "Found blocked pattern: $label"
     cat /tmp/policy-forge-public-scan.txt
     failures=1
@@ -28,7 +29,7 @@ scan_fixed "env file reference" "${dot}${env_word}"
 scan_fixed "OpenAI credential name" "OPENAI_${api_key}"
 scan_fixed "Anthropic credential name" "ANTHROPIC_${api_key}"
 scan_fixed "AWS secret credential name" "AWS_SECRET_${access_key}"
-scan_fixed "GitHub token name" "GITHUB_${token}"
+scan_fixed "GitHub token name" "GITHUB_${token}" --glob '!.github/workflows/secret-scan.yml'
 scan_fixed "Codex session token name" "CODEX_SESSION_${token}"
 scan_fixed "Claude Code token name" "CLAUDE_CODE_${token}"
 scan_fixed "private repo name" "policy-forge-${private_word}"
