@@ -1,0 +1,11 @@
+{
+  "finding_id": "PF-DEMO-001",
+  "environment": "acme-regulated-cloud",
+  "account_ref": "aws-account-000000000000",
+  "title": "Privileged user lacks recent access review",
+  "severity": "critical",
+  "status": "ready_for_validation",
+  "mapped_controls": ["AC-2"],
+  "poam_id": "POAM-DEMO-001",
+  "evidence_manifest_id": "EVIDENCE-DEMO-001"
+}

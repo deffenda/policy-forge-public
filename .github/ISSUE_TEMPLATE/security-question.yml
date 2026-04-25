@@ -1,0 +1,15 @@
+name: Security question
+description: Ask a public-safe security question.
+title: "Security question: "
+labels: ["security", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, exploit details, customer data, private URLs, or live infrastructure identifiers.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What public-safe security question should maintainers answer?
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+{
+  "scan_id": "SCAN-DEMO-001",
+  "environment": "acme-regulated-cloud",
+  "account_ref": "aws-account-000000000000",
+  "scanner": "synthetic-scanner",
+  "generated_at": "2026-01-15T12:00:00Z",
+  "findings": [
+    {
+      "finding_id": "PF-DEMO-001",
+      "title": "Privileged user lacks recent access review",
+      "severity": "critical",
+      "control": "AC-2",
+      "asset_ref": "asset-demo-001"
+    }
+  ]
+}

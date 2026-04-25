@@ -1,0 +1,16 @@
+{
+  "evidence_manifest_id": "EVIDENCE-DEMO-001",
+  "finding_id": "PF-DEMO-001",
+  "control": "AC-2",
+  "environment": "acme-regulated-cloud",
+  "evidence_type": "remediation_attestation",
+  "submitted_by": "cloud-engineer-demo",
+  "review_status": "pending_isso_review",
+  "artifacts": [
+    {
+      "artifact_id": "ARTIFACT-DEMO-001",
+      "description": "Synthetic access review export",
+      "content_hash": "sha256-demo-placeholder"
+    }
+  ]
+}

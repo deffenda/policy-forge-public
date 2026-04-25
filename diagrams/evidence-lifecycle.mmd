@@ -1,0 +1,9 @@
+stateDiagram-v2
+  [*] --> Captured
+  Captured --> Linked
+  Linked --> Reviewed
+  Reviewed --> Accepted
+  Reviewed --> NeedsUpdate
+  NeedsUpdate --> Captured
+  Accepted --> Packaged
+  Packaged --> [*]

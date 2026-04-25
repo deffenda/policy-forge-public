@@ -1,0 +1,42 @@
+openapi: 3.1.0
+info:
+  title: Policy Forge Public API Preview
+  version: 0.1.0
+  description: Public-safe illustrative API preview. Not a production contract.
+servers:
+  - url: https://example.invalid/policy-forge
+paths:
+  /findings:
+    get:
+      summary: List synthetic finding records
+      responses:
+        "200":
+          description: Synthetic finding list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  findings:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          example: PF-DEMO-001
+                        control:
+                          type: string
+                          example: AC-2
+  /authorization-packages/{packageId}:
+    get:
+      summary: Retrieve a public-safe package summary
+      parameters:
+        - name: packageId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Synthetic package summary

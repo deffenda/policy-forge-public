@@ -1,0 +1,18 @@
+{
+  "control": "AC-2",
+  "environment": "acme-regulated-cloud",
+  "history": [
+    {
+      "event_id": "CTRL-HIST-DEMO-001",
+      "timestamp": "2026-01-15T13:00:00Z",
+      "event_type": "finding_mapped",
+      "source_record": "PF-DEMO-001"
+    },
+    {
+      "event_id": "CTRL-HIST-DEMO-002",
+      "timestamp": "2026-01-16T14:00:00Z",
+      "event_type": "evidence_submitted",
+      "source_record": "EVIDENCE-DEMO-001"
+    }
+  ]
+}

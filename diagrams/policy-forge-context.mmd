@@ -1,0 +1,15 @@
+flowchart TB
+  ciso["CISO"]
+  ao["Authorizing Official"]
+  isso["ISSO"]
+  assessor["Assessor"]
+  engineer["Cloud Engineer"]
+  pf["Policy Forge"]
+  scanners["Scanner Tools"]
+
+  scanners --> pf
+  engineer --> pf
+  isso --> pf
+  assessor --> pf
+  pf --> ciso
+  pf --> ao

@@ -1,0 +1,9 @@
+{
+  "package_id": "PF-PACKAGE-DEMO-001",
+  "environment": "acme-regulated-cloud",
+  "controls": ["AC-2"],
+  "poams": ["POAM-DEMO-001"],
+  "evidence_manifests": ["EVIDENCE-DEMO-001"],
+  "assessment_status": "demo_ready",
+  "generated_from_source_records": true
+}

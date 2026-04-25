@@ -1,0 +1,9 @@
+flowchart LR
+  scan["Synthetic scan"] --> ingestion["Scan ingestion"]
+  ingestion --> finding["Finding PF-DEMO-001"]
+  finding --> evidence["Evidence manifest"]
+  finding --> poam["POA&M POAM-DEMO-001"]
+  evidence --> control["Control AC-2"]
+  poam --> control
+  control --> assessment["Assessment record"]
+  assessment --> package["Authorization package"]

@@ -1,0 +1,19 @@
+name: Documentation improvement
+description: Suggest a public documentation improvement.
+title: "Docs: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: public-safety
+    attributes:
+      label: Public-safety check
+      description: Confirm the suggestion uses only public-safe information.
+    validations:
+      required: true

@@ -1,0 +1,7 @@
+flowchart TB
+  controls["Control posture"] --> package["Authorization package"]
+  poam["POA&M records"] --> package
+  evidence["Evidence manifests"] --> package
+  assessments["Assessment results"] --> package
+  waivers["Waivers and risk acceptances"] --> package
+  package --> ao["AO review"]

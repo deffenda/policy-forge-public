@@ -1,0 +1,9 @@
+{
+  "poam_id": "POAM-DEMO-001",
+  "finding_id": "PF-DEMO-001",
+  "control": "AC-2",
+  "severity": "critical",
+  "status": "ready_for_validation",
+  "planned_completion": "2026-02-15",
+  "risk_statement": "Synthetic privileged access review gap for public demonstration."
+}
