@@ -1,6 +1,6 @@
 # Policy Forge
 
-**Security-first compliance automation for regulated cloud environments.**
+**Security-led, evidence-backed compliance automation for regulated cloud environments.**
 
 Policy Forge helps security, compliance, and cloud engineering teams continuously connect findings, evidence, POA&Ms, controls, assessments, and authorization packages without slowing remediation.
 
@@ -19,11 +19,11 @@ The result is a shared operating model for CISOs, Authorizing Officials, ISSOs, 
 - Support for cloud engineers and compliance staff in the same workflow.
 - Designed for RMF, NIST-style control environments, and regulated cloud operations.
 
-## Security First. Compliance Second.
+## Security First, Compliance With Proof
 
 Policy Forge does not make engineers wait for compliance approval before fixing risk. Engineers fix security issues quickly; compliance records, validates, attests, and packages the evidence.
 
-Compliance should prove that security work happened, that it was reviewed, and that risk decisions are defensible. It should not become a queue that delays remediation.
+Compliance is essential to the operating model. Policy Forge keeps it tied to source records so compliance can prove what happened, who reviewed it, and why risk decisions are defensible.
 
 ## Core Capabilities
 
@@ -102,4 +102,4 @@ Near-term roadmap themes:
 - Deeper scanner integrations
 - Executive drill-down views
 
-Policy Forge is for teams that want compliance to prove security work - not replace it.
+Policy Forge is for teams that want compliance to prove, preserve, and accelerate security work.

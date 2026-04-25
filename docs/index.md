@@ -5,7 +5,7 @@ Policy Forge connects security findings, evidence, POA&Ms, controls, assessments
 Start with:
 
 - [CISO brief](positioning/ciso-brief.md)
-- [Security First. Compliance Second.](positioning/security-first-compliance-second.md)
+- [Security First, Compliance With Proof](positioning/security-first-compliance-second.md)
 - [Architecture overview](architecture/overview.md)
 - [Security model](security/security-model.md)
 - [Demo storyboard](demo/demo-storyboard.md)

@@ -1,8 +1,8 @@
-# Security First. Compliance Second.
+# Security First, Compliance With Proof
 
-Policy Forge is built on a simple principle: compliance should prove security work, not replace it.
+Policy Forge is built on a simple principle: compliance should be backed by proof.
 
-In regulated environments, teams often wait for compliance review before taking action. That delay can preserve process while extending exposure. Policy Forge reverses the order. Engineers remediate quickly, and compliance staff validate, attest, and package the result.
+In regulated environments, teams sometimes wait for compliance review before taking action. That delay can preserve process while extending exposure. Policy Forge keeps remediation moving while preserving strong compliance accountability.
 
 ## Practical Meaning
 
